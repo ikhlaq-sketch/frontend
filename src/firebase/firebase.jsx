@@ -16,7 +16,7 @@ import {
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDzAx1BYjJmvZmKHYtTWUYnDieeULPbbqY",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   // authDomain: "localhost", 
   authDomain: "nextstep-7da12.firebaseapp.com",
   projectId: "nextstep-7da12",
